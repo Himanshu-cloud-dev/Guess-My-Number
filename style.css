@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap');
+
+*{
+    margin: 3px !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1f1f1f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,
+}
+
+p {
+    font-size: 13px;
+}
+
+.background {
+    background-color: transparent;
+}
+
+.my-4 {
+    border: 1px dashed white;
+}
+
+.jumbotron {
+    font-size: 12px;
+}
+
+.navbar  {
+    border-bottom: 1px dashed white;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    color: whitesmoke;
+    border: 1px dashed white;
+    background-color: black;
+    
+}
+
+input {
+    border: none;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
